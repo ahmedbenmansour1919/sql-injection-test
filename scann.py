@@ -73,5 +73,5 @@ def sql_injection_scan(url):
                 break
 
 if __name__ == "__main__":
-    urlToBeChecked = "https://www.mytek.tn/customer/account/create/"
+    urlToBeChecked = "[chage with url page you want test]"
     sql_injection_scan(urlToBeChecked)
